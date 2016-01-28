@@ -1,4 +1,4 @@
-Feature: Euromoney Test
+Feature: QA test task
 
   Scenario: Story 1
     Given I'm on home page of euromoneyplc
@@ -7,7 +7,7 @@ Feature: Euromoney Test
     And Verify that the URL of the first image is present
 
   Scenario: Story 2
-    Given I'm on home page of euromoneyplc2
+    Given I'm on home page of euromoneyplc
     When I go to menu
     Then Euromoney Store link displayed correctly on the menu item
     When I click on Euromoney Store link

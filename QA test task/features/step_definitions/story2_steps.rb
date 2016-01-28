@@ -7,10 +7,6 @@ require_relative '../../browser'
 
 include Test::Unit::Assertions
 
-Given(/^I'm on home page of euromoneyplc2$/) do
-  @browser.get "http://www.euromoneyplc.com"
-end
-
 When(/^I go to menu$/) do
   navigation_button = @browser.find_element :css => $navigation_button_css
   navigation_button.click
