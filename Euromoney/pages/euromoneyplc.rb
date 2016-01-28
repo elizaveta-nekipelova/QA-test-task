@@ -1,0 +1,6 @@
+$euromoneystore_link_css = "#menu > li:last-child a"
+$navigation_button_css = ".icon-nav"
+$whoweare_link_css = "[id=menu]>li:nth-child(1) a"
+$managementteam_link_css = "[href='/who-we-are/management-team']:nth-child(1)"
+$stand_first_css = ".stand_first p"
+$first_image_css = ".w_content_generic:nth-child(2) img"

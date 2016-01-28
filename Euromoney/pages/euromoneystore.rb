@@ -1,0 +1,8 @@
+$advertismentpopup_close_css = "a.closePopup"
+$viewmoredetails_link_css = "[onclick*='ProductID=18055']" #"//td[h2[span[text() = 'Book of the Month']]]/table//input"
+$product_summary_css = ".tdProductSummary"
+$addtocart_button_css = ".btn_addtocart"
+$bookname_css = ".tdProductSummary a h1"
+$cart_bookname_css = "[class$=tbl03_roundbg] tbody tr td:nth-child(1) a"
+$currency_css = "#cID option"
+$totalprice_css = "[class$=tbl03_roundbg] tbody tr td:nth-child(4) b"
