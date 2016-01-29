@@ -1,5 +1,5 @@
 $advertismentpopup_close_css = "a.closePopup"
-$viewmoredetails_link_css = "[onclick*='ProductID=18055']" #"//td[h2[span[text() = 'Book of the Month']]]/table//input"
+$viewmoredetails_link_css = "[onclick*='ProductID=18055']"
 $product_summary_css = ".tdProductSummary"
 $addtocart_button_css = ".btn_addtocart"
 $bookname_css = ".tdProductSummary a h1"

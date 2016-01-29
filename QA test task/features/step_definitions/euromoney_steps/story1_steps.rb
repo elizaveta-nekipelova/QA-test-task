@@ -1,7 +1,7 @@
 require 'selenium-webdriver'
 require 'test/unit'
-require_relative '../../pages/euromoneyplc'
-require_relative '../../browser'
+require_relative '../../../pages/euromoneyplc'
+require_relative '../../../browser'
 
 Given(/^I'm on home page of euromoneyplc$/) do
   @browser.get "http://www.euromoneyplc.com"

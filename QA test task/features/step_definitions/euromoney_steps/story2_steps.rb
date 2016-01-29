@@ -1,9 +1,9 @@
 require 'selenium-webdriver'
 require "test/unit"
 require 'test/unit/assertions'
-require_relative '../../pages/euromoneyplc'
-require_relative '../../pages/euromoneystore'
-require_relative '../../browser'
+require_relative '../../../pages/euromoneyplc'
+require_relative '../../../pages/euromoneystore'
+require_relative '../../../browser'
 
 include Test::Unit::Assertions
 

@@ -1,4 +1,4 @@
-Feature: QA test task
+Feature: QA test task for Euromoney site
 
   Scenario: Story 1
     Given I'm on home page of euromoneyplc
