@@ -7,7 +7,7 @@ require_relative '../../../email_generation'
 
 include Test::Unit::Assertions
 
-Given(/^I on Photobox home page$/) do
+Given(/^I'm on Photobox home page$/) do
   @browser.get "https://www.photobox.co.uk"
 end
 
@@ -46,3 +46,4 @@ And(/^Logged in$/) do
   @browser.mouse.move_to myDropboxMenu
   assert(signOut_link.displayed?)
 end
+

@@ -63,3 +63,9 @@ def submit
   @browser.find_element :css => "#submit"
 end
 
+#---------------------------------------------------------------------------
+# Print page
+#---------------------------------------------------------------------------
+def elementsOfPrintPage
+  @browser.find_elements :css => "[class='rp-other-products rp-with-cta'] [class='rp-block-content'] > div > div"
+end
