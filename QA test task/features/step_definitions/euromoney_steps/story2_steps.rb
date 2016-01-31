@@ -60,3 +60,4 @@ And(/^The price of the book is displayed in GBP$/) do
   totalprice = @browser.find_element :css => $totalprice_css
   assert(totalprice.text.start_with?("£"))
 end
+

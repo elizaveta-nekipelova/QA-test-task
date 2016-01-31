@@ -20,6 +20,10 @@ def loginName
   @browser.find_element :css => "[class*=item--userAccount] span:nth-child(2)"
 end
 
+def printLink
+  @browser.find_element :css => "#Nav li:nth-child(2) [href*='shop/prints']"
+end
+
 #---------------------------------------------------------------------------
 # Sign up page
 #---------------------------------------------------------------------------
