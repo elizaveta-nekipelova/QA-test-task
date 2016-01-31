@@ -10,7 +10,7 @@ When(/^I go to photobox print page$/) do
 end
 
 Then(/^All descriptions have the same templates$/) do
-  regexp = /([A-Z]{1}[a-zA-z0-9 !’”–#?\.]+\D[\.!]*[a-z]?\n)\b(From £)[\d]{1,2}[\.]{1}[0-9]{1,2}[ ]*\n(> Find out more)/
+  regexp = /([A-Z]{1}[a-zA-z0-9 !’”–#?\.]+[\.!a-z]?\n)\b(From £)[\d]{1,2}[\.]{1}[0-9]{1,2}[ ]*\n(> Find out more)/
   elementsOfPrintPage.each {|i| assert(regexp.match(i.text)!=nil)}
 end
 
